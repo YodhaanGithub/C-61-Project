@@ -1,0 +1,94 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+    font-family: 'Audiowide', cursive;
+}
+h1 {
+    font-size: 35px;
+}
+.line {
+    width: 230px;
+    background-color: coral;
+    height: 6px;
+    margin: 6px auto;
+}
+.Profile {
+    width: 180px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#Welcome {
+    position: absolute;
+    height: 800px;
+    color: aquamarine;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(#6326bf 0%, #db045e 100%);
+    width: 100%;
+    display: table;
+    z-index: 9;
+}
+
+.Pheonix {
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    display: table-cell;
+}
+
+#How {
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+}
+.menu{
+list-style:none;
+position:fixed;
+top:0px;
+margin-top:0px;
+z-index: 10;
+width: 100%;
+background-color:coral;
+cursor: pointer;
+}
+.list:hover{
+background-color: chartreuse;
+font-size: 30px;
+text-decoration: underline;
+}
+.list{
+display:inline;
+padding-right: 25px;
+padding-left: 35px;
+color: azure;
+font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: blueviolet;
+    text-shadow: 2px 2px yellow;
+}
+#contacts {
+    background:firebrick;
+}
+#contacts iframe {
+    width: 100%;
+
+}
+.Contact_1 a {
+    text-shadow: none;
+    color:aqua;
+}
+.Contact_1 h5 {
+    display: inline;
+}
